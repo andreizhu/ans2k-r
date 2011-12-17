@@ -6,11 +6,6 @@
 
 #include <stdio.h>
 
-void strcpy(char *s, char *t){
-	while ( *s++ = *t++)
-		;
-}
-
 int strlen(char *s){
 	int len;
 
@@ -45,7 +40,6 @@ int strncmp(char *s, char *t, int n){
 		if (n==0)
 			return 0;
 	return *(s-1)-*(t-1);*/
-
 	int i;
 	
 	for ( i=1;i<=n;i++)
