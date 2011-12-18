@@ -4,5 +4,6 @@
 #include <stdio.h>
 
 int main(){
-	printf("%c\n",EOF);
+	printf("The value of EOF is %c\n",EOF);
+	return 0;
 }
